@@ -1,6 +1,7 @@
 from postgres import Postgres
 
 class PostgresHelper:
+    #PostgreSQL özellikle store procedure çalıştırmak için yardımcı sınıf
     def __init__(self,server,dbname,username):
         self.server=server
         self.dbname=dbname
